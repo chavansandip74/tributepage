@@ -1,0 +1,107 @@
+
+.container {
+    font-family: Arial, sans-serif;
+    background-color: #e7ceb7;
+    width: 80vw;
+    margin: 2vw 4vw;
+    padding: 5vw;
+    height: 100%;
+    border-radius: 18px;
+    box-shadow: 1px 0px 56px 15px rgb(7, 7, 7);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 6vw;
+    font-family: serif;
+    text-shadow: 2px 5px 4px rgba(240, 59, 4, 0.904);
+    margin: 0;
+}
+h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3vw;
+    font-family: 'Rowdies', sans-serif;
+    color: rgb(51, 2, 17);
+    text-shadow: 2px 5px 4px rgba(212, 207, 212, 0.904);
+    margin-bottom: 0;
+}
+img{
+    text-align: center;
+    margin-left: 18vw;
+    height: 30vw;
+    margin-top: 3vw;
+    border-radius: 5vw;
+    box-shadow: 1px 0px 56px 15px rgb(233, 136, 8);
+}
+hr{
+    border: 0;
+    background: rgb(15, 14, 14);
+    height: 3px;
+    margin: 0vw 8vw;
+}
+.pig{
+    font-size: 1.6vw;
+    margin-top: 3vw;
+    font-family: fantasy;
+    text-align: center;
+
+
+}
+b{
+    text-decoration: underline;
+}
+.main{
+    display: flex;
+    text-align: justify;
+    background-color: antiquewhite;
+    padding: 50px;
+    flex-direction: column;
+   border-radius: 15vw 0 15vw 0;
+}
+
+.main h2{
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(63, 3, 3);
+    margin: 0;
+    font-weight: bolder;
+    font-family:cursive;
+}
+.main h3{
+    font-size: 22px;
+}
+li{
+    font-size: 1.5vw;
+    margin:1vw;
+     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  
+
+    
+}
+h4{
+    font-size: 1.5vw;
+    margin:2vw;
+    font-weight: bold;
+}
+.quotes{
+    font-family: 'Playpen Sans', cursive;
+text-align: center;
+}
+@media(max-width:480px) {
+    img{
+        box-shadow: 1px 0px 33px 4px rgb(233, 136, 8);
+        margin-top: 4vw;
+
+    }
+    li{
+        font-size: 1.5vw;
+    }
+    .pig{
+        font-size: 2vw;
+    }
+    .main{
+        width: 48vw;
+    }
+}
