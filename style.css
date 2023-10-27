@@ -97,11 +97,23 @@ text-align: center;
     }
     li{
         font-size: 1.5vw;
+        margin-right: 8vw;
     }
     .pig{
         font-size: 2vw;
     }
     .main{
-        width: 48vw;
+        width: 78vw;
+        padding: 50px 1px;
+    }
+   ul{
+    text-align: justify; 
+    padding-left: 8vw;
+   }
+    hr{
+        border: 0;
+        background: rgb(15, 14, 14);
+        height: 3px;
+        margin: 0vw 8vw;
     }
 }
